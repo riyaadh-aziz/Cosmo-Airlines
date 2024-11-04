@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airline Rules</title>
+  <style>
+    /* General body styles */
+    body {
+      font-family: Arial, sans-serif; /* Sets the font for the page */
+      background-color: #e71b8f; /* Background color for the body */
+	   background-image: url("https://github.com/Shonaaa25/Cosmo-Airlines/blob/main/rules.jpeg?raw=true");
+      background-size: cover;
+      color: #fff; 
+      margin: 0; 
+      padding: 0; 
+      overflow-y: auto; 
+    }
+
+    /* Container for centered content */
+    .container {
+      display: flex; /* Enables flexbox layout */
+      flex-direction: column; /* Arranges children in a column */
+      align-items: center; 
+      justify-content: center; /* Centers children vertically */
+      padding: 2rem; 
+    }
+
+    /* Main heading styles */
+    h1 {
+      font-size: 2.5rem; /* Font size for the main heading */
+      margin-bottom: 2rem; /* Space below the heading */
+    }
+
+    /* Styles for the rules container */
+    .rules-container {
+      background-color: rgba(156, 27, 100, 0.8); /* Background color for the rules box */
+      border-radius: 10px; 
+      padding: 2rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+      width: 80%; /* Set a width for the container */
+      overflow-y: auto;
+      max-height: 80vh; /* Maximum height for the container to fit the screen */
+    }
+
+    /* List styles */
+    ol {
+      list-style-type: none; /* Removes default list styling */
+      padding: 0; /* Removes padding */
+    }
+
+    /* List item styles */
+    li {
+      margin-bottom: 2rem; /* Space below each list item */
+    }
+
+    /* Subheading styles */
+    h2 {
+      font-size: 1.5rem; 
+      margin-bottom: 1rem; 
+    }
+
+    /* Paragraph styles */
+    p {
+      font-size: 1.1rem; /
+      line-height: 1.5; /
+	  }
+
+    /* Continue button styles */
+    #continue-button {
+      background-color: #e71b8f; 
+      color: #fff; 
+      border: none; /* No border */
+      border-radius: 5px; /* Rounded corners */
+      padding: 0.5rem 1rem; 
+      font-size: 1.2rem; 
+      cursor: pointer; /* Pointer cursor on hover */
+      margin-top: 2rem; /* Space above the button */
+    }
+
+    /* Button hover effect */
+    #continue-button:hover {
+      background-color: #c61780; /* Darker shade on hover */
+    }
+  </style>
+  <script src="airlinerules.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Airline Rules</h1>
+    <div class="rules-container">
+      <ol>
+        <li>
+          <h2>Carry-On Baggage Allowance</h2>
+          <p>Passengers are allowed one piece of carry-on luggage weighing up to 7 kg (15 lbs). The carry-on bag must comply with the airline's size requirements, typically around 55 cm x 40 cm x 20 cm (22 in x 16 in x 8 in). Exact dimensions may vary by airline. Carry-on baggage must not contain prohibited items such as sharp objects, flammable materials, or liquids exceeding 100 ml (3.4 oz) per container. These rules are subject to airport security regulations.</p>
+        </li>
+        <li>
+          <h2>Checked Baggage Policies</h2>
+          <p>Extra luggage exceeding the carry-on limit should be checked in at the airport. Typically, passengers are allowed one checked bag weighing up to 23 kg (50 lbs), depending on the airline's policy. There may be charges for excess weight or size, and these fees generally apply if the weight exceeds 23 kg (50 lbs) and may vary depending on the airline. Items such as sports equipment or musical instruments may have special handling rules and may incur extra charges.</p>
+        </li>
+        <li>
+          <h2>Baggage Fees</h2>
+          <p>Fees apply for baggage exceeding the free allowance in number, size, or weight. Some airlines offer discounted rates for excess baggage if paid in advance online. Higher fees typically apply for excess baggage paid at the airport.</p>
+        </li>
+        <li>
+          <h2>Security and Safety Regulations</h2>
+          <p>All checked baggage undergoes security screening. Items that violate safety regulations (e.g., hazardous materials) will be removed. It is recommended that valuables such as electronics, important documents, and medications be carried in the carry-on bag rather than checked baggage.</p>
+        </li>
+        <li>
+          <h2>Lost/Damaged Baggage</h2>
+          <p>Passengers should report any lost or damaged baggage to the airline's baggage service desk immediately upon arrival. Compensation claims for lost or damaged baggage should be submitted as per the airline's policy, which may include specific deadlines and required documentation.</p>
+        </li>
+        <li>
+          <h2>Special Baggage Considerations</h2>
+          <p>Additional allowances may apply for passengers traveling with infants or small children, including strollers and car seats. Mobility aids and medical equipment are typically not counted against baggage limits and should be accommodated free of charge.</p>
+        </li>
+      </ol>
+    </div>
+    <button id="continue-button">Continue</button>
+  </div>
+</body>
+<!-- html & css by Shona Raghunandan -->
+</html>
+
