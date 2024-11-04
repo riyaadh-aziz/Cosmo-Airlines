@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crew details</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e71b8f;
+      background-image: url("https://github.com/Shonaaa25/Cosmo-Airlines/blob/main/crewdetails.jpg?raw=true");
+      background-size: cover;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center; /* Center text content */
+      overflow-y: auto; /* Allow the page to be scrollable */
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      background-color: #9c1b64;
+    }
+
+    .header a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      border: 1px solid #fff;
+      border-radius: 5px;
+    }
+
+    .header h1 {
+      font-size: 2rem;
+      margin: 0;
+      flex: 1;
+    }
+
+    .container {
+      margin: 2rem auto;
+      max-width: 800px; /* Restrict the width of the container */
+    }
+
+    .why-fly-container {
+      background-color: rgba(156, 27, 100, 0.8); /* Semi-transparent background */
+      padding: 2rem;
+      border-radius: 15px; /* Rounded corners for the container */
+      margin-bottom: 2rem;
+    }
+
+    h1, h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      font-size: 1.1rem;
+      line-height: 1.4;
+      text-align: left; /* Align text to the left */
+      margin: 0 auto;
+      max-width: 600px; /* Restrict width for better readability */
+    }
+
+    /* Styling for captain messages grid */
+    .captain-messages {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+      justify-items: center; /* Center the grid items */
+    }
+
+    .captain-message {
+      background-color: #9c1b64;
+      border-radius: 20px; /* Rounded corners */
+      text-align: center;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 220px; /* Set max width for messages */
+    }
+
+    .captain-message img {
+      width: 80px; /* Set image width */
+      height: 80px; /* Set image height */
+      border-radius: 50%; /* Circular images */
+      object-fit: cover; /* Make sure images fit nicely */
+      margin-bottom: 1rem;
+    }
+
+    .captain-message p {
+      font-size: 1rem;
+      line-height: 1.4;
+      margin: 0.3rem 0;
+    }
+
+    @media screen and (max-width: 768px) {
+      .container {
+        padding: 0 1rem;
+      }
+
+      .captain-messages {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header section with home and flight menu links -->
+  <div class="header">
+    <a href="#">Home</a> <!-- Home page button -->
+    <h1>Cosmo Air</h1> <!-- Cosmo Air heading -->
+    <a href="#">Flight Menu</a> <!-- Flight Menu page link -->
+  </div>
+
+  <div class="container">
+    <!-- Container for "Why You Should Fly with Cosmo Air" -->
+    <div class="why-fly-container">
+      <h1>Why You Should Fly with Cosmo Air</h1>
+      <p>At Cosmo Air, we're dedicated to making your travel experience out of this world. Here's why our passengers love flying with us:</p>
+      <ul>
+        <li>We believe that exploring new destinations shouldn't break the bank. That's why Cosmo Air offers competitive pricing on all our flights, making it easier for you to travel without worrying about high costs.</li>
+        <li>Your comfort is our priority. Our planes are equipped with ergonomically designed seats that provide exceptional comfort throughout your journey.</li>
+        <li>Say goodbye to cramped seating! Cosmo Air offers generous legroom to ensure that even our tallest passengers can stretch out and relax.</li>
+        <li>We offer plus-size seats for those needing extra room, ensuring a comfortable flight experience for everyone.</li>
+        <li>At the end of every flight, we offer free candy floss as a sweet memory of your journey with us.</li>
+      </ul>
+    </div>
+
+    <!-- Captain messages section -->
+    <div class="section">
+      <h2>A Message from our Captains</h2>
+      <div class="captain-messages">
+        <!-- Captain message blocks with images and text -->
+        <div class="captain-message">
+          <img src="https://github.com/Shonaaa25/Cosmo-Airlines/blob/main/female1.jpg?raw=true" alt="Captain Shona">
+          <p>"Cosmo Air is committed to providing our passengers with an exceptional travel experience."</p>
+          <p>- Captain Shona</p>
+        </div>
+
+        <div class="captain-message">
+          <img src="https://github.com/Shonaaa25/Cosmo-Airlines/blob/main/male1.jpg?raw=true" alt="Captain Mateo">
+          <p>"At Cosmo Air, we believe in making travel accessible and enjoyable for everyone."</p>
+          <p>- Captain Mateo</p>
+        </div>
+
+        <div class="captain-message">
+          <img src="https://github.com/Shonaaa25/Cosmo-Airlines/blob/main/female2.jpg?raw=true" alt="Captain Jauhara">
+          <p>"We take pride in making sure our passengers feel at home in the skies."</p>
+          <p>- Captain Jauhara</p>
+        </div>
+
+        <div class="captain-message">
+          <img src="https://github.com/Shonaaa25/Cosmo-Airlines/blob/main/female3.jpg?raw=true" alt="Captain Happy">
+          <p>"We pride ourselves on our friendly service and dedication to customers."</p>
+          <p>- Captain Happy</p>
+        </div>
+
+        <div class="captain-message">
+          <img src="https://github.com/Shonaaa25/Cosmo-Airlines/blob/main/male2.jpg?raw=true" alt="Captain Riyadh">
+          <p>"We ensure every passenger enjoys their experience."</p>
+          <p>- Captain Riyadh</p>
+        </div>
+
+        <div class="captain-message">
+          <img src="https://github.com/Shonaaa25/Cosmo-Airlines/blob/main/male3.jpg?raw=true" alt="Captain Mohammad">
+          <p>"Flying is more than a job for us; it’s our passion."</p>
+          <p>- Captain Mohammad</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<!-- html & css by Shona Raghunandan -->
+</html>
